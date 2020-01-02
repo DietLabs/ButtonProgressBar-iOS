@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ButtonProgressBar-iOS'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A simple progress bar UIButton subclass.'
 
 # This description is used to generate tags and improve search results.
@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
 Custom UIButton class with loading animation for determinate and indeterminate processes like network download / upload.
 Set progress animated, or unanimated. Uses CABasicAnimation and layer stroke to display progress.
 Text enlarge on tap. Animated completion image.
+
+Forked by DietLabs to support newer Swift versions.
                        DESC
 
   s.homepage         = 'https://github.com/thePsguy/ButtonProgressBar-iOS'
